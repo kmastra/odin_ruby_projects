@@ -28,9 +28,9 @@ def stock_picker(arr)
       best_sell_day  = highest_number_index + index + 1
     end
   end
-  puts [best_buy_day, best_sell_day ]
+  p [best_buy_day, best_sell_day ]
 end
 
 
 
-stock_picker([17,3,6,9,15,8,6,1,10])
+stock_picker([17,15,6,9,6,8,3,1,10])
